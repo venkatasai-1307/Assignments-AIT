@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegistrationForm</title>
+    
+    
+</head>
+<body>
+    <style>
+        body{
+    background-color: aqua;
+    
+}
+h3{
+    text-align: center;
+    padding-top: 10px;
+    
+}
+hr{
+    width: 400px;
+}
+form{
+    text-align: center;
+    border: 3px solid #fff;
+    border-radius: 0px 0 0px 0;
+    width: 500px;
+    height: 585px;
+    margin: 30px auto 0;
+    
+}
+.firstName{
+    padding-right: 60%;
+    padding-top: 6px;
+}
+.middleName{
+    padding-right: 56%;
+}
+.lastName{
+    padding-right: 60%;
+}
+.course{
+    padding-right: 51%;
+}
+.gender{
+    padding-right: 22%;
+}
+.phNO{
+    padding-right:0%;
+}
+.address{
+    padding-right: 60%;   
+}
+.email{
+    padding-right: 62%;
+}
+.password{
+    padding-right: 58%;
+}
+.confirmpassword{
+    padding-right: 48%;
+}
+.button{
+    padding-left: 0%;
+    
+}
+    </style>
+    
+    
+
+        <h3>Student Registration Form</h3><hr>
+        <div class="box">
+        <!-- form starts here -->
+        <form action="#">
+            <div class="firstName">
+                <label for="FirstName">firstName</label> </div>
+                <input type="text" id="FirstName" placeholder="Enter your FirstName" size="50px" required><br><br>
+            
+             <div class="middleName">
+                <label for="middleName">middleName</label></div>
+                <input type="text" id="middleName" placeholder="Enter your middleName" size="50px" required><br><br>
+            
+            <div class="lastName">
+                <label for="lastName">lastName</label></div>
+                <input type="text" id="lastName" placeholder="Enter your lastName" size="50px" required><br><br>
+
+            
+
+            <div class="gender">
+                <label for="gender"> gender : </label>
+                <input type="radio" name="gender" id="Male" value="Male" required>
+                <label for="Male">Male</label>
+                <input type="radio" name="gender" id="FeMale" value="Female" required>
+                <label for="Female">Female</label>
+                <input type="radio" name="gender" id="Other" value="Other" required>
+                <label for="Other">Other</label>
+            </div><br>
+
+            <div class="course">
+                <label for="course">course : </label>
+                <select name="course" id="course" required>
+                <option value="..">..</option>
+                <option value="Btech">Btech</option>
+                <option value="BA">BA</option>
+                <option value="BSC">BSC</option>
+                <option value="BE">BE</option>
+                <option value="Bcom">Bcom</option></select>
+                
+            </div><br>
+
+            <div class="phNO">
+                <label for="ph.NO">ph.NO : </label>
+                <input type="tel" id="ph.NO" placeholder="Enter your number" size="40px" required>
+            </div><br>
+
+            <div class="address">
+                <label for="address">address : </label></div>
+                <input type="textarea" id="address" placeholder="Current address" size="50px" style="height: 40px;" required>
+            <br><br>
+
+            <div class="email">
+                <label for="email">email : </label></div>
+                <input type="email" id="email" placeholder="Enter your Email id" size="50px" required>
+            <br><br>
+
+            <div class="password">
+                <label for="password">password : </label></div>
+                <input type="password" id="password" placeholder="Enter password" size="50px" required>
+
+            <br><br>
+            <div class="confirmpassword">
+                <label for="confirmpassword">confirmpassword : </label> </div>
+                <input type="confirmpassword" id="confirmpassword" placeholder="Enter password" size="50px" required><br><br>
+
+           
+            
+            <button>Register</button>
+           
+           
+            <button>Reset</button>
+           
+
+
+        </form>
+        
+
+        
+    
+</body>
+</html>

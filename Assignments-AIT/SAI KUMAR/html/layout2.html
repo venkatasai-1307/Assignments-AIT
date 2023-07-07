@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            display: flex;
+            background-color: rgb(42, 165, 42);
+        }
+        header div{
+            flex: 1;
+        }
+        header nav{
+            flex: 11;
+        }
+        header ul{
+            display: flex;
+        }
+        header ul li{
+            flex: 1;
+            color: chartreuse;
+        }
+        /* bannerblock style */
+        .bannerblock img{
+            width: 100%;
+        }
+        .popupularcourses{
+            display: flex;
+            align-items: center;
+        }
+        .popupularcourses figure{
+            flex: 1;
+            margin: 5px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .popularcourses figure img{
+            display: flex;
+            width: 100%;
+
+        }
+        section{
+            background-color: chartreuse;
+        }
+        .cards{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            top: -150px;
+            width: 100%;
+        }
+        .coursecards{
+            height: 100px;
+            width: 600px;
+            background-color:darkorange;
+            margin: 100px;
+            text-align: center;
+            color: chartreuse;
+            border:#0f110e solid 3px;
+            border-radius: 10px;
+        }
+        .coursecards:hover{
+            background-color:rgb(255, 0, 144);
+
+        }
+
+        .coursecards{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="https://www.achieversit.com/assets/images/logo-white.png" alt="logo">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="">products</a>
+                </li>
+                <li>
+                    <a href="">brand</a>
+                </li>
+                <li>
+                    <a href="">cost</a>
+                </li>
+                <li>
+                    <a href="">rating</a>
+                </li>
+                <li>
+                    <a href="">images</a>
+                </li>
+                <li>
+                    <a href="">help</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- bannerblock starts here -->
+    <section class="bannerblock">
+        <img src="https://www.achieversit.com/assets/images/react_training.jpg" alt="react_training">
+    </section>
+    <!-- bannerblock end here -->
+     <!-- course cards starts here -->
+    
+     <div class="cards">
+        <div class="coursecards" >BRAND</div>
+        <div class="coursecards">COST</div>
+        <div class="coursecards">HELP</div>
+     </div> 
+    <!-- courses starts here -->
+    <h2>POPULAR COURSES:</h2>
+    <section class="popularcourses" >
+        <figure>
+            <img src="https://www.achieversit.com/management/uploads/course_image/ui-dev1.jpg" alt="UI">
+            <figcaption>UI Developer</figcaption>
+        </figure>
+        <figure>
+            <img src="https://www.achieversit.com/management/uploads/course_image/jfs11.png" alt="full">
+            <figcaption>full stack </figcaption>
+        </figure>
+        <figure>
+            <img src="https://www.achieversit.com/management/uploads/course_image/data-science-analysis-internet-technology-concept-banner-infographic-virtual-screen-133419730.jpg" alt="data">
+            <figcaption>DATA SCIENCE</figcaption>
+        </figure>
+        <figure>
+            <img src="https://www.achieversit.com/management/uploads/course_image/AI.jpg" alt="AI">
+            <figcaption>ARTIFICIAL INTELLIGENCE</figcaption>
+        </figure>
+
+    </section>
+    <!-- courses end here -->
+     
+        
+    </div>
+</body>
+</html>
