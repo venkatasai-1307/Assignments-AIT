@@ -1,0 +1,27 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bill Splitter</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>BILL SPLITTER</h1>
+    <hr>
+    <label for="totalAmount">Total Amount:</label>
+    <input type="number" id="totalAmount" placeholder="Enter total amount">
+    <span id="warning1" style="color: red;"></span><br>
+    <label for="numPeople">Number of People:</label>
+    <input type="number" id="numPeople" placeholder="Enter number of people">
+    <span id="warning2" style="color: red;"></span><br>
+    <button id="calculateBtn"  onclick="splitBill()">Calculate</button>
+    <p id="result"></p>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
